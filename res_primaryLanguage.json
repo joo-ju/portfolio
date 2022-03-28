@@ -123,27 +123,10 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
-      ]
-    },
-    {
-      "company": "(주) 마이플래닛",
-      "title": "Intern",
+      "company": "(주)마이플래닛",
+      "title": "Front-End Intern",
       "years": "2021.12 - 2022.02",
-      "mainTech": ["React 7/8"],
+      "mainTech": ["React", "TypeScript"],
       "technologies": ["React", "Mysql", "Express", "TypeScript", "Apollo", "GraphQL"]
     }
   ]
