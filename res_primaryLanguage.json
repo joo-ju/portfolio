@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "안녕하세요",
-    "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "👋 안녕하세요",
+    "description": "새로운 것에 도전하고 탐구하는 것을 즐깁니다. 컴퓨터과학과를 진학하여 IT 기초 소양을 다졌습니다. 이후 Front-End 개발자에 관심을 가지고 필요한 IT기술을 배웠습니다. 또한 토이 프로젝트와 공모전 등을 병행하며 기술력 및 그 이상의 잠재력을 가진 개발자가 되기위해 노력하였습니다. 늘 새로운 것에 도전하고 적응하여 목표를 달성하는 저의 성향은 급변하는 IT분야에 스며들어 도전을 두려워하지 않는 개발자로 성장할 수 있을 것입니다. 지금까지의 다양한 경험들의 결과물을 포트폴리오로 첨부합니다. 감사합니다💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,8 +11,8 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
+      "title": "Focus-to-do 클론코딩",
+      "startDate": "2021",
       "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
       "images": ["images/portfolio/animal-shelter/p1.jpg", "images/portfolio/animal-shelter/p2.jpg"],
       "url": "",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "title": "Photography",
+      "title": "블록체인을 이용한 중고거래 앱",
       "startDate": "2018",
       "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
       "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
@@ -49,7 +49,24 @@
       ]
     },
     {
-      "title": "3D Object Viewer",
+      "title": "동물병원검색서비스",
+      "startDate": "2018",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "통합자산관리 앱",
       "startDate": "2015",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": ["images/portfolio/adventure/p1.jpg", "images/portfolio/adventure/p2.jpg"],
@@ -66,6 +83,23 @@
         {
           "class": "devicon-csharp-plain",
           "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "반지형 점자 인식 장치",
+      "startDate": "2018",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         }
       ]
     }
