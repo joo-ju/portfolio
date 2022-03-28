@@ -52,7 +52,7 @@
       "title": "동물병원검색서비스",
       "startDate": "2021",
       "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": ["images/portfolio/photography/p1.jpg", "images/portfolio/photography/p2.jpg"],
+      "images": ["images/portfolio/petam/p1.png", "images/portfolio/petam/p2.png"],
       "url": "https://github.com",
       "technologies": [
         {
