@@ -140,11 +140,11 @@
       ]
     },
     {
-      "company": "Serros Solutions",
+      "company": "(주) 마이플래닛",
       "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "years": "2021.12 - 2022.02",
       "mainTech": ["React 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "technologies": ["React", "Mysql", "Express", "TypeScript", "Apollo", "GraphQL"]
     }
   ]
 }
