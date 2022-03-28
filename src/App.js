@@ -26,12 +26,12 @@ class App extends Component {
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId ? window.$secondaryLanguageIconId : window.$primaryLanguageIconId;
-    document.getElementById(oppositeLangIconId).removeAttribute('filter', 'brightness(40%)');
-    document.getElementById(pickedLangIconId).setAttribute('filter', 'brightness(40%)');
-  }
+  // swapCurrentlyActiveLanguage(oppositeLangIconId) {
+  //   var pickedLangIconId =
+  //     oppositeLangIconId === window.$primaryLanguageIconId ? window.$secondaryLanguageIconId : window.$primaryLanguageIconId;
+  //   document.getElementById(oppositeLangIconId).removeAttribute('filter', 'brightness(40%)');
+  //   document.getElementById(pickedLangIconId).setAttribute('filter', 'brightness(40%)');
+  // }
 
   componentDidMount() {
     this.loadSharedData();
@@ -72,7 +72,7 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
+          {/* <div
             // onClick={() => this.applyPickedLanguage(window.$primaryLanguage, window.$secondaryLanguageIconId)}
             style={{ display: 'inline' }}>
             <span
@@ -81,8 +81,8 @@ class App extends Component {
               // data-icon="twemoji-flag-for-flag-south-korea"
               data-inline="false"
               id={window.$primaryLanguageIconId}></span>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             // onClick={() => this.applyPickedLanguage(window.$secondaryLanguage, window.$primaryLanguageIconId)}
             style={{ display: 'inline' }}>
             <span
@@ -91,7 +91,7 @@ class App extends Component {
               // data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
               id={window.$secondaryLanguageIconId}></span>
-          </div>
+          </div> */}
         </div>
         <About resumeBasicInfo={this.state.resumeData.basic_info} sharedBasicInfo={this.state.sharedData.basic_info} />
         <Projects resumeProjects={this.state.resumeData.projects} resumeBasicInfo={this.state.resumeData.basic_info} />
