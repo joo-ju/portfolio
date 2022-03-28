@@ -62,7 +62,7 @@
         "images/portfolio/petam/p7.png",
         "images/portfolio/petam/p8.png"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/joo-ju/AnimalManagement",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -75,6 +75,10 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
         }
       ]
     },
