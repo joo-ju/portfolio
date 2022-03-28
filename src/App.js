@@ -70,8 +70,8 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          {/* <div
+        {/* <div className="col-md-12 mx-auto text-center language"> */}
+        {/* <div
             // onClick={() => this.applyPickedLanguage(window.$primaryLanguage, window.$secondaryLanguageIconId)}
             style={{ display: 'inline' }}>
             <span
@@ -81,7 +81,7 @@ class App extends Component {
               data-inline="false"
               id={window.$primaryLanguageIconId}></span>
           </div> */}
-          {/* <div
+        {/* <div
             // onClick={() => this.applyPickedLanguage(window.$secondaryLanguage, window.$primaryLanguageIconId)}
             style={{ display: 'inline' }}>
             <span
@@ -91,7 +91,7 @@ class App extends Component {
               data-inline="false"
               id={window.$secondaryLanguageIconId}></span>
           </div> */}
-        </div>
+        {/* </div> */}
         <About resumeBasicInfo={this.state.resumeData.basic_info} sharedBasicInfo={this.state.sharedData.basic_info} />
         <Projects resumeProjects={this.state.resumeData.projects} resumeBasicInfo={this.state.resumeData.basic_info} />
         <Skills sharedSkills={this.state.sharedData.skills} resumeBasicInfo={this.state.resumeData.basic_info} />
